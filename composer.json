@@ -1,0 +1,21 @@
+{
+    "name": "gemabit/array",
+    "type": "library",
+    "description": "A super array object that'll make your life easier.",
+    "keywords": ["array","helper"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "André Filipe",
+            "email": "andre.r.flip@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gemabit\\Tools\\Array\\": "src/"
+        }
+    }
+}
